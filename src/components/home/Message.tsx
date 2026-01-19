@@ -1,6 +1,6 @@
 import { Quote } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
-import { cn } from "@/lib/utils";
+import { cn } from "/lib/utils";
 
 const Message = () => {
   const { elementRef: contentRef, isVisible: contentVisible } =
